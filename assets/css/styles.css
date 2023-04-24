@@ -83,7 +83,7 @@ header .not-found-page {
     margin: 0 auto;
     /* width: 100vw; */
     height: calc(100vh - 85px);
-    background: url("/assets/img/404.svg");
+    background: url("http://stellarhold170nt.github.io/SCP/assets/img/404.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
