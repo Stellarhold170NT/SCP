@@ -176,7 +176,7 @@ header .illustrator {
     margin-top: calc((100vh - 85px - 540px) / 2 + 25px);
     width: 100rem;
     height: 54rem;
-    background: url("./assets/img/illustrator.png");
+    background: url("SCP/assets/img/illustrator.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
