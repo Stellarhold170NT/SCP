@@ -78,6 +78,16 @@ body {
 
 /* Common */
 
+header .not-found-page {
+    display: block;
+    margin: 0 auto;
+    /* width: 100vw; */
+    height: calc(100vh - 85px);
+    background: url("/assets/img/404.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 header {
     display: block;
     width: 100vw;
