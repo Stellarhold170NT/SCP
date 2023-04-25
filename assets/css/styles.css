@@ -179,6 +179,33 @@ a:hover {
     margin: 0 18px;
 }
 
+.navbar > ul > li {
+    position: relative;
+}
+
+.navbar > ul > li .sub-menu {
+    z-index: 11;
+    position: absolute;
+    top: 25px;
+    left: -70px;
+    width: 150px;
+    display: none;
+}
+
+.sub-menu a {
+    text-align: center;
+    display: block;
+    padding: 8px 16px;
+    background-color: black;
+    opacity: 0.9;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.navbar > ul > li:hover .sub-menu {
+    display: block;
+}
+
 header .illustrator {
     display: block;
     margin: 0 auto;
