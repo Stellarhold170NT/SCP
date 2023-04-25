@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300.01 485.92">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #262c3c;
+        stroke: url(#linear-gradient);
+        stroke-miterlimit: 10;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        font-size: 48.78px;
+      }
+
+      .cls-2, .cls-3 {
+        opacity: .95;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: #fff;
+        font-family: Montserrat-Regular, Montserrat;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        font-size: 16.93px;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        fill: #268bc2;
+        opacity: .9;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        font-size: 16px;
+        opacity: .8;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0" y1="243.12" x2="300.01" y2="243.12" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-1" y=".32" width="300.01" height="485.61"/>
+    <text class="cls-2" transform="translate(32.13 206.22)"><tspan class="cls-13" x="0" y="0">T</tspan><tspan x="27.31" y="0">in </tspan><tspan class="cls-12" x="86.24" y="0">h</tspan><tspan x="119.35" y="0">ọc</tspan><tspan class="cls-5" x="0" y="51.92">c</tspan><tspan x="27.02" y="51.92">ơ sở 2</tspan></text>
+    <rect class="cls-7" x="32.13" y="102.05" width="88.29" height="31.17" rx="6.2" ry="6.2"/>
+    <text class="cls-3" transform="translate(43.46 123.78)"><tspan x="0" y="0">C </tspan><tspan class="cls-14" x="16.61" y="0">L</tspan><tspan x="26.62" y="0">ANG</tspan></text>
+    <text class="cls-4" transform="translate(32.13 327.69)"><tspan x="0" y="0">Mục tiêu: thành th</tspan><tspan class="cls-6" x="148.01" y="0">ạ</tspan><tspan x="157.49" y="0">o </tspan><tspan class="cls-10" x="171.71" y="0">n</tspan><tspan class="cls-9" x="182.57" y="0">gôn</tspan><tspan class="cls-10" x="0" y="19.2">n</tspan><tspan class="cls-9" x="10.86" y="19.2">gữ C </tspan><tspan class="cls-8" x="52.59" y="19.2">c</tspan><tspan x="61.46" y="19.2">ơ </tspan><tspan class="cls-11" x="75.68" y="19.2">b</tspan><tspan class="cls-9" x="86.48" y="19.2">ản</tspan></text>
+  </g>
+</svg>
