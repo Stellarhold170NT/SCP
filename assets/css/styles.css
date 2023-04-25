@@ -612,3 +612,43 @@ header .illustrator {
 .ex {
     overflow-x: hidden;
 }
+
+
+/* listSourceCode */
+
+.listSCP {
+    display: flex;
+    overflow: hidden;
+    --cnt: 0;
+    counter-reset: cnt;
+}
+
+.listSCP a {
+    counter-increment: cnt;
+}
+
+.listSCP a:before {
+    content: counter(cnt) ". ";
+}
+
+.listSCP img {
+    /* display: block; */
+    border-right: 1px solid #ccc;
+    height: calc(100vh - 85px);
+}
+
+.listSCP .olli {
+    height: calc(100vh - 50px - 85px - 50px);
+    width: 600px;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: block;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    line-height: 1.7;
+    font-weight: 100;
+    font-family: "Montserrat";
+}
