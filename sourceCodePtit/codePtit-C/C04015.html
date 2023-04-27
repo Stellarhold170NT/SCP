@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Source code.ptit</title>
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="https://stellarhold170nt.github.io/SCP/assets/img/logo-title.png"
+        />
+        <link rel="stylesheet" href="https://stellarhold170nt.github.io/SCP/assets/css/reset.css" />
+        <link rel="stylesheet" href="https://stellarhold170nt.github.io/SCP/assets/css/styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        />
+
+        <!-- montserrat -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- mono space -->
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-twilight.min.css"
+        />
+    </head>
+    <body>
+        <main class="ex">
+            <!-- header -->
+            <header class="header">
+                <div class="content">
+                    <nav class="navbar">
+                        <!-- logo -->
+                        <a href="https://stellarhold170nt.github.io/SCP/index.html" class="">
+                            <img
+                                style="height: 28px"
+                                src="https://stellarhold170nt.github.io/SCP/assets/img/logo.png"
+                                alt="Neptune"
+                            />
+                        </a>
+
+                        <!-- navigation -->
+                        <ul>
+                            <li><a href="https://stellarhold170nt.github.io/SCP/index.html">Home</a></li>
+                            <li>
+                                <a href="https://stellarhold170nt.github.io/SCP/CompetitiveAlgo.html"
+                                    >Competitive Algo</a
+                                >
+                            </li>
+                            <li>
+				<a href="#!">Source code.ptit</a>
+				<ul class="sub-menu">
+                                    <li><a href="https://stellarhold170nt.github.io/SCP/sourceCodePtit/codePtit-C/list.html">Tin học cơ sở 2</a></li>
+                                </ul>
+			    </li>
+                            <li><a href="https://stellarhold170nt.github.io/SCP/404.html">Resource</a></li>
+                            <li>
+                                <a
+                                    href="mailto:stellarhold170nt@gmail.com"
+                                    ,
+                                    target="_blank"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+
+                        <!-- action -->
+                        <!-- <div class="actions">
+                            <a href="#!" class="action-link">Sign in</a>
+                            <a href="#!" class="btn action-btn">Sign up</a>
+                        </div> -->
+                        <div style="margin-left: auto">
+                            <a href="https://github.com/Stellarhold170NT"
+                                ><i
+                                    class="fa-brands fa-github"
+                                    style="
+                                        color: white;
+                                        font-size: 3rem;
+                                        right: 30px;
+                                        padding: 0 50px;
+                                    "
+                                ></i
+                            ></a>
+                        </div>
+                    </nav>
+                </div>
+
+                <h1
+                    style="
+                        color: white;
+                        font-size: 2.5rem;
+                        text-align: center;
+                        margin-top: 50px;
+                    "
+                >
+                    /C04015 - Đếm số lần xuất hiện 2
+                </h1>
+                <p
+                    style="
+                        color: white;
+                        font-size: 1.7rem;
+                        text-align: center;
+                        margin-top: 10px;
+                    "
+                >
+                    &lt;Problem&gt;
+                </p>
+                <a
+                    style="
+                        text-align: center;
+                        display: block;
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+                    "
+                    href="https://code.ptit.edu.vn/student/question/C04015"
+                    target="self"
+                    >https://code.ptit.edu.vn/student/question/C04015</a
+                >
+
+                <div class="code">
+                    <pre><code class="language-cpp">#define _CRT_SECURE_NO_WARNINGS
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+#include &lt;stdbool.h&gt;
+#include &lt;math.h&gt;
+
+
+#define max(i, j) ((i &gt; j) ? i : j)
+#define min(i, j) ((i &lt; j) ? i : j)
+
+int main() {
+	int t;
+
+	scanf(&quot;%d&quot;, &amp;t);
+
+	for (int u = 1; u &lt;= t; u++) {
+		int n;
+		scanf(&quot;%d&quot;, &amp;n);
+
+		int arr[101];
+
+		int dem[100000] = { 0 };
+		bool check[100000] = { false };
+
+		int count = 0;
+
+		for (int i = 0; i &lt; n; i++) {
+			scanf(&quot;%d&quot;, &amp;arr[i]);
+			dem[arr[i]]++;
+
+		}
+
+		printf(&quot;Test %d:\n&quot;, u);
+
+		for (int i = 0; i &lt; n; i++) {
+			if (check[arr[i]] == false) {
+				printf(&quot;%d xuat hien %d lan\n&quot;, arr[i], dem[arr[i]]);
+				check[arr[i]] = true;
+			}
+		}
+
+
+		printf(&quot;\n&quot;);
+	}
+
+	return 0;
+}</code>
+                    </pre>
+                </div>
+            </header>
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    </body>
+</html>
