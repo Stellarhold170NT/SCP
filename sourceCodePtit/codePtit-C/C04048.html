@@ -156,6 +156,8 @@ int main() {
 			int start = (x - k &gt;= 1) ? x - k : 1;
 			int end = (x + k &lt;= n) ? x + k : n;
 
+            /* đánh dấu những vị trí được chiếu sáng bởi mỗi chiếc đèn */
+
 			for (int j = start; j &lt;= end; j++) {
 				road[j] = 1;
 			}
@@ -166,6 +168,13 @@ int main() {
 		int cnt = 0;
 
 		int i = 1;
+		
+		/*
+		Một chiếc đèn có thể chiếu sáng tối đa 
+        (x + k) – (x – k) + 1 = k * 2 + 1 (vị trí)
+
+        -&gt; Nên nếu tại vị trí i chưa được chiếu sáng thì ta có thể đặt đèn ở vị trí i + k
+        */
 
 		while (i &lt;= n) {
 			if (road[i] == 0) {
